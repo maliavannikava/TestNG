@@ -1,0 +1,17 @@
+<?ml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testing-1.0.dtd">
+<suite name="Regression Suite">
+	<test thread-count="5" name="Test">
+	
+		<classes>
+			<class name="com.class03.AddEmployeeTest" />
+			<class name="com.class03.LoginTest">
+				<methods>
+					<exclude name="invalidPasswordLogin" />
+				</method>
+			</class>
+			<class name="com.class02.SoftAssertionDemo" />
+		</classes>
+	</test> <!--Test-->
+</suite> <!--Suite-->
+	
